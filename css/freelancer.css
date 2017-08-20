@@ -197,7 +197,7 @@ section.success {
   right: 0;
 }
 #portfolio .portfolio-item .portfolio-link {
-  display: block;
+  display: inline-block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
@@ -442,7 +442,7 @@ fieldset[disabled] .btn-success.active {
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
-  margin: 0;
+  margin-bottom: 30px;
   font-size: 3em;
 }
 .portfolio-modal .modal-content img {
@@ -523,5 +523,10 @@ div#maincontent {
 	margin-bottom: 50px;
 }
 
+#cfc-logo {
+  width: 300px;
+  height:auto;
+  margin: 0;
+}
 
 
